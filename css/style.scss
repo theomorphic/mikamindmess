@@ -1,0 +1,255 @@
+
+@font-face {
+	font-family: YanoneKaffeesatz;
+	src: url(../files/YanoneKaffeesatz-Light.ttf);
+}
+
+*, *:before, *:after {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+    }
+
+body{
+	background-color: #e25e51;
+	background-image: url("../img/bg.png");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	min-height: 100vh;
+	line-height: 1;
+	font-family: YanoneKaffeesatz;
+	user-select: none;
+	overflow-x: hidden;
+}
+
+.container{
+	max-width: 750px;
+	margin: auto;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+
+	.bio{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 3px dotted  #fff;
+		border-radius: 1%;
+		margin: 0.5rem;
+		margin-bottom: 1rem;
+		// box-shadow: inset 0 0 0 2000px rgba(212, 212, 212, 0.089);
+		color: #fff;
+	
+		.pfp{
+			width: 15rem;
+			height: 15rem;
+			margin-right: 0.5rem;
+			margin-top: 0.5rem;
+		}
+
+		.words-div{
+			h1{
+				font-size: 3.3rem;
+			}
+	
+			h1:hover{
+				// text-decoration:underline;
+				cursor:default;
+				transition: all 0.9s ease;
+			}
+
+			.bio-p{
+				font-size: 2.5rem;
+				margin-top: 0.5rem;
+			}
+		}
+
+	}
+
+	.links{
+
+		h2{
+			font-size: 2.5rem;
+		}
+
+		a{
+			text-decoration: none;
+			color: #fff;
+
+		}
+
+		img{
+			width: 4rem;
+			border-radius: 50%;
+			margin-right: 1rem;
+
+		}
+
+		.social{
+			padding: 1rem;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			border: #ffffff93 dotted 3px;
+			margin: 1rem;
+			box-shadow: inset 0 0 0 2000px rgba(212, 212, 212, 0.089);
+
+
+			.link{
+				padding: 1rem;
+				border-radius: 1%;
+				margin-left: 1.2rem;
+
+			}
+		}
+
+		.social:hover{
+			h2{
+				transition: all 0.3s ease;
+				transform: scale(1.05);
+			}
+		}
+
+		.social2{
+			border: none;
+			box-shadow: none;
+			
+			img{
+				width: 5rem;
+				transition: .3s ease all;
+				border: 3px dashed  #ffffffaf;
+			}
+
+			img:hover{
+				transform: scale(1.1);
+			}
+			.a0{
+				margin-left: .5rem;
+
+			}
+			.a1{
+				width: 4.5rem;
+			}
+			.a2{
+				width: 4rem;
+			}
+			.a3{
+				width: 3.5rem;
+			}
+			.a4{
+				width: 3rem;
+			}
+		}
+
+		
+	}
+
+
+	.box div{
+
+		position: absolute;
+		width: 4rem;
+		height: 60px;
+		border: 6px solid rgba(255,255,255,0.8);
+		background-color: #fff;
+		clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+		z-index: -1;
+	}
+
+	.box div:nth-child(1){
+
+		top: 16%;
+		left: 12%;
+		animation: animate 10s linear infinite;
+	}
+
+	.box div:nth-child(2){
+
+		top: 70%;
+		left: 56%;
+		animation: animate 7s linear infinite;
+	}
+
+	.box div:nth-child(3){
+
+		top: 89%;
+		left: 11%;
+		animation: animate 6s linear infinite;
+	}
+
+	.box div:nth-child(4){
+
+		top: 62%;
+		left: 4%;
+		animation: animate 9s linear infinite;
+
+	}
+
+	.box div:nth-child(5){
+
+		top: 17%;
+		left: 74%;
+		animation: animate 11s linear infinite;
+	}
+
+	.box div:nth-child(6){
+
+		top: 59%;
+		left: 82%;
+		animation: animate 15s linear infinite;
+
+	}
+
+	.box div:nth-child(7){
+
+		bottom: 11%;
+		left: 83%;
+		animation: animate 12s linear infinite;
+	}
+
+	.box div:nth-child(8){
+
+		top: 3%;
+		left: 67%;
+		animation: animate 7s linear infinite;
+	}
+
+	.box div:nth-child(9){
+
+		top: 70%;
+		left: 69%;
+		animation: animate 17s linear infinite;
+	}
+	
+	.box div:nth-child(10){
+
+		bottom: 20%;
+		left: 34%;
+		animation: animate 16s linear infinite;
+	}
+
+
+
+
+	@keyframes animate {
+
+		0%{
+			transform: scale(0) translateY(0) rotate(0);
+			opacity: 1;
+		}
+
+		100%{
+			transform: scale(1.3) translateY(-90px) rotate(360deg);
+			opacity: 0;
+		}
+		
+	}
+
+	
+}
+
+	
+	
+
+	

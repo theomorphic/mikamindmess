@@ -250,6 +250,123 @@ body{
 }
 
 	
-	
+@media(max-width:450px){
+	.container{
+		.bio{
+			.pfp{
+				width: 11rem;
+				height: 11rem;
+				margin-right: none;
+			}
+		}
+		.links{
+			.social2{
+			
+				img{
+					width: 4.5rem;
+				}
+				.a1{
+					width: 4rem;
+				}
+				.a2{
+					width: 3.5rem;
+				}
+				.a3{
+					width: 3rem;
+				}
+				.a4{
+					width: 2.7rem;
+				}
+			}
+		}
+	}
+}	
 
+@media(max-width:400px){
+	.container{
+		.bio{
+			.pfp{
+				width: 10rem;
+				height: 10rem;
+			}
+			.words-div{
+				h1{
+					font-size: 3rem;
+				}
+			}	
+		}
+		.links{
+			.social2{
+			
+				img{
+					width: 3.7rem;
+				}
+				.a1{
+					width: 3.4rem;
+				}
+				.a2{
+					width: 3.1rem;
+				}
+				.a3{
+					width: 2.9rem;
+				}
+				.a4{
+					width: 2.7rem;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width:370px){
+	.container{
+		
+		.links{
+			.social2{
+			
+				img{
+					width: 3.5rem;
+				}
+				.a1{
+					width: 3.2rem;
+				}
+				.a2{
+					width: 2.9rem;
+				}
+				.a3{
+					width: 2.7rem;
+				}
+				.a4{
+					width: 2.5rem;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width:350px){
+	.container{
+		
+		.links{
+			.social2{
+			
+				img{
+					width: 3.3rem;
+				}
+				.a1{
+					width: 2.9rem;
+				}
+				.a2{
+					width: 2.7rem;
+				}
+				.a3{
+					width: 2.5rem;
+				}
+				.a4{
+					width: 2.3rem;
+				}
+			}
+		}
+	}
+}
 	

@@ -10,7 +10,7 @@
 
 body {
   background-color: #6263a3;
-  background-image: url("../img/bg3.webp");
+  background-image: url("../img/space.webp");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -44,6 +44,7 @@ body {
   height: 15rem;
   margin-right: 0.5rem;
   margin-top: 0.5rem;
+  border-radius: 50%;
 }
 .container .bio .words-div h1 {
   font-size: 3.3rem;
